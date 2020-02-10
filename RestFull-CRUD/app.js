@@ -4,8 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('../import/RestFull-CRUD/RestFull-CRUD_61/routes/indexFull-CRUD/RestFull-CRUD_61/routes/index');
-var usersRouter = require('../import/RestFull-CRUD/RestFull-CRUD_61/routes/usersFull-CRUD/RestFull-CRUD_61/routes/users');
+var indexRouter = require('../import/RestFull-CRUD/RestFull-CRUD/routes/indexFull-CRUD/RestFull-CRUD/routes/index');
+var usersRouter = require('../import/RestFull-CRUD/RestFull-CRUD/routes/usersFull-CRUD/RestFull-CRUD/routes/users');
 
 var app = express();
 
