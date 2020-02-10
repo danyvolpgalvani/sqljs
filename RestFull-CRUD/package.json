@@ -1,18 +1,16 @@
 {
-  "name": "rfc",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "name": "restfull-crud",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "github.com/danyvolpgalvani/sqljs.git"
-  },
-  "author": "volpele",
-  "license": "ISC",
   "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "http-error": "0.0.6",
+    "http-errors": "^1.6.3",
+    "morgan": "~1.9.1",
     "bootstrap": "^4.4.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
@@ -23,5 +21,11 @@
     "path": "^0.12.7",
     "popper": "^1.0.1",
     "pug": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/danyvolpgalvani/sqljs.git"
+  },
+  "author": "volpele",
+  "license": "ISC"
 }
