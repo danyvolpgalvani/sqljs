@@ -4,8 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('../import/RestFull-CRUD/RestFull-CRUD/routes/indexFull-CRUD/RestFull-CRUD/routes/index');
-var usersRouter = require('../import/RestFull-CRUD/RestFull-CRUD/routes/usersFull-CRUD/RestFull-CRUD/routes/users');
+var indexRouter = require('./routes/index');
+var usersRouter = require('./routes/users');
 
 var app = express();
 
@@ -33,7 +33,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(function() {
+app.listen(3000, function() {
   console.log("Server acceso porta 3000");
 });
 module.exports = app;
